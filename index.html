@@ -1,0 +1,241 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RobloxDev Empreendedor - Seja um Criador de Sucesso</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #ff4500;
+      --secondary-color: #00a2ff;
+      --accent-color: #ffcc00;
+      --bg-color: #f0f0f0;
+      --text-color: #333;
+    }
+    
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      overflow-x: hidden;
+    }
+    
+    header {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      position: relative;
+    }
+    
+    .header-content {
+      position: relative;
+      z-index: 2;
+    }
+    
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    .tagline {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    
+    .cta-button {
+      display: inline-block;
+      background-color: var(--accent-color);
+      color: var(--text-color);
+      text-decoration: none;
+      padding: 1rem 2rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.2rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+      background-color: #ffd700;
+    }
+    
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 3rem;
+    }
+    
+    .feature {
+      flex-basis: calc(33.333% - 2rem);
+      background-color: white;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    
+    .feature:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    }
+    
+    .feature h3 {
+      color: var(--secondary-color);
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    
+    .feature-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+    }
+    
+    .testimonial {
+      background-color: #e6f3ff;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-top: 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .testimonial::before {
+      content: '"';
+      position: absolute;
+      top: -20px;
+      left: 20px;
+      font-size: 8rem;
+      color: rgba(0,162,255,0.1);
+      font-family: serif;
+    }
+    
+    .checkout-section {
+      text-align: center;
+      margin-top: 4rem;
+      padding: 3rem;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    
+    .checkout-button {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: white;
+      text-decoration: none;
+      padding: 1rem 3rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.4rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-top: 1rem;
+    }
+    
+    .checkout-button:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+      background-color: #ff5722;
+    }
+    
+    @media (max-width: 900px) {
+      .feature {
+        flex-basis: calc(50% - 2rem);
+      }
+    }
+    
+    @media (max-width: 600px) {
+      .feature {
+        flex-basis: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>RobloxDev Empreendedor</h1>
+      <p class="tagline">Transforme sua criatividade em um império de jogos!</p>
+      <a href="#checkout" class="cta-button">Comece Sua Jornada</a>
+    </div>
+    <svg class="header-bg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <path d="M0,0 C25,50 75,50 100,0 L100,100 L0,100 Z" fill="rgba(255,255,255,0.1)"/>
+    </svg>
+  </header>
+
+  <main>
+    <h2>Desbloqueie Seu Potencial no Universo Roblox</h2>
+    <p>Prepare-se para uma jornada emocionante no mundo do desenvolvimento de jogos e empreendedorismo digital. Com o RobloxDev Empreendedor, você terá as ferramentas e o conhecimento para transformar suas ideias em jogos de sucesso e construir um negócio lucrativo.</p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">🎮</div>
+        <h3>Desenvolvimento de Jogos Avançado</h3>
+        <p>Domine as técnicas de programação em Lua e aprenda os segredos do design de jogos que cativam milhões de jogadores.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💰</div>
+        <h3>Estratégias de Monetização Inovadoras</h3>
+        <p>Descubra como criar fluxos de receita sustentáveis através de compras in-game, passes e merchandising virtual.</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📈</div>
+        <h3>Marketing e Crescimento</h3>
+        <p>Aprenda a promover seus jogos, construir uma comunidade engajada e escalar seu sucesso na plataforma Roblox.</p>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <p>"O RobloxDev Empreendedor mudou minha vida! Em apenas 6 meses, passei de um desenvolvedor amador para um criador de jogos de sucesso. Agora, meu jogo tem mais de 5 milhões de visitas e gera uma renda que eu nunca imaginei ser possível!"</p>
+      <p><strong>- Ana, 19 anos, Criadora do "Simulador de Aventura Espacial"</strong></p>
+    </div>
+
+    <div id="checkout" class="checkout-section">
+      <h2>Está Pronto para Se Tornar um RobloxDev de Sucesso?</h2>
+      <p>Não perca mais tempo! Junte-se a nós agora e comece sua jornada para o sucesso no mundo do desenvolvimento de jogos Roblox e empreendedorismo digital.</p>
+      <a href="" class="checkout-button">Garantir Minha Vaga Agora!</a>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from('.header-content', {
+      opacity: 0,
+      y: 50,
+      duration: 1,
+      ease: 'power3.out'
+    });
+
+    gsap.from('.feature', {
+      scrollTrigger: {
+        trigger: '.features',
+        start: 'top 80%'
+      },
+      opacity: 0,
+      y: 50,
+      stagger: 0.2,
+      duration: 0.8,
+      ease: 'power3.out'
+    });
+  </script>
+</body>
+</html>
